@@ -1,6 +1,6 @@
 <?php
-$email1= "justanexample@gmail.com";
-$email2= "justanexample.com";
+$email= "justanexample@gmail.com";
+$email1= "justanexample.com";
 function echeck($email){
 	if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
   	echo("$email is a valid email address\n");
@@ -9,5 +9,5 @@ function echeck($email){
 	}
 }
 echeck($email1);
-echeck($email2);
+echeck($email);
 ?>
