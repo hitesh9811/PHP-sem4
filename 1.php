@@ -1,16 +1,16 @@
 <?php
 
-$a=10;
-$b=12;
-$c=15;
+$a1=10;
+$b1=12;
+$c1=15;
 
-if($a>=$b){
-  if($a>=$c){ echo $a; }
-  else { echo $c; }
+if($a1>=$b1){
+  if($a1>=$c1){ echo $a1; }
+  else { echo $c1; }
 }
 else{
-  if($b>=$c){ echo $b; }
-  else { echo $c; }
+  if($b1>=$c1){ echo $b1; }
+  else { echo $c1; }
 }
 
 ?>
