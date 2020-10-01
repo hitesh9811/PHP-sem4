@@ -1,5 +1,5 @@
 <?php //php 7.0.8
-$str="the quick brown fox jumps over the lazy dog with jump.";
+$str="COVID kab khatam hoga !!!!.";
 echo "String before Edit : ".$str."\n After Edit : ";
 echo preg_replace('/the/','That',$str,1);
 ?>
