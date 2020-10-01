@@ -1,5 +1,5 @@
 <?php
-$color = array('white', 'green', 'red');
+$color = array('white', 'green', 'red','yellow');
 foreach ($color as $c)
 {
 echo "$c, ";
