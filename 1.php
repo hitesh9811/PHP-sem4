@@ -10,7 +10,7 @@ if($a1>=$b1){
 }
 else{
   if($b1>=$c1){ echo $b1; }
-  else { echo $c1; }
+  else { echo htmlentities($c1); }
 }
 
 ?>
