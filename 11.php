@@ -6,7 +6,7 @@ function check($txt1,$txt2){
     else
         echo $txt1."-String not contained-".$txt2;
 }
-$str1="Hello my friend!";
+$str1="I AM NOOB!";
 $str2="my friend";
 $str3="hello";
 echo "String 1 : ".$str1."\n";
